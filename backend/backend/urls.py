@@ -7,7 +7,7 @@ from django.http import HttpResponse
 
 def root_portal_view(request):
     host = request.get_host().split(':')[0]
-    frontend_url = f"http://{host}:5173"
+    frontend_url = "https://joelbinoy2021-sketch.github.io/fdrflow-sih/"
     html = f"""
     <!DOCTYPE html>
     <html>
@@ -51,3 +51,4 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("instruments.urls")),
 ]
+
