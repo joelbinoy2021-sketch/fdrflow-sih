@@ -1,5 +1,4 @@
-const defaultHost = typeof window !== 'undefined' ? window.location.hostname : '127.0.0.1';
-const API_BASE = import.meta.env.VITE_API_BASE_URL || `http://${defaultHost}:8000/api`;
+const API_BASE = 'https://fdrflow-sih-backend.onrender.com/api';
 
 export function getToken() {
   return localStorage.getItem('fdr_token') || '';
