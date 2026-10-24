@@ -1,0 +1,35 @@
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python / Virtual Environment
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Media / Uploads (keep gitkeep if needed)
+backend/media/*
+!backend/media/.gitkeep
+
+# IDE / OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
